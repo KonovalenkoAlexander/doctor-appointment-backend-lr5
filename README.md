@@ -1,5 +1,5 @@
-# 🏥 Doctor Appointment — REST + GraphQL Backend
-> ЛР5 — Інженерія вебзастосунків | Запорізька Політехніка
+# 🏥 Doctor Appointment, REST + GraphQL Backend
+> ЛР5 - Інженерія вебзастосунків
 
 ## Запуск
 
@@ -12,7 +12,7 @@ npm start          # або npm run dev (з auto-reload через nodemon)
 
 ---
 
-## REST API — Приклади запитів
+## REST API - Приклади запитів
 
 ### Лікарі
 
@@ -53,9 +53,9 @@ DELETE http://localhost:4000/api/appointments/1
 
 ---
 
-## GraphQL — Приклади запитів
+## GraphQL - Приклади запитів
 
-Відкрий **http://localhost:4000/graphql** у браузері — там доступний GraphiQL.
+Відкрий **http://localhost:4000/graphql** у браузері - там доступний GraphiQL.
 
 ### Query: Отримати всіх лікарів
 

@@ -1,0 +1,86 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Олена Іванівна Ковальчук",
+      "specialty": "Терапевт",
+      "available": 1
+    },
+    {
+      "id": 2,
+      "name": "Микола Петрович Бойко",
+      "specialty": "Хірург",
+      "available": 1
+    },
+    {
+      "id": 3,
+      "name": "Наталія Сергіївна Мороз",
+      "specialty": "Педіатр",
+      "available": 1
+    },
+    {
+      "id": 4,
+      "name": "Андрій Васильович Шевченко",
+      "specialty": "Кардіолог",
+      "available": 0
+    },
+    {
+      "id": 5,
+      "name": "Ірина Олексіївна Гриценко",
+      "specialty": "Невролог",
+      "available": 1
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patient_name": "Тестовий Пацієнт",
+      "doctor_id": 1,
+      "date": "2026-09-09",
+      "time": "12:00",
+      "status": "pending"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Олена Іванівна Ковальчук",
+      "login": "doctor1",
+      "password": "1234",
+      "role": "doctor",
+      "doctor_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Микола Петрович Бойко",
+      "login": "doctor2",
+      "password": "1234",
+      "role": "doctor",
+      "doctor_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Наталія Сергіївна Мороз",
+      "login": "doctor3",
+      "password": "1234",
+      "role": "doctor",
+      "doctor_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Ірина Олексіївна Гриценко",
+      "login": "doctor5",
+      "password": "1234",
+      "role": "doctor",
+      "doctor_id": 5
+    },
+    {
+      "id": 5,
+      "name": "Тестовий Пацієнт",
+      "login": "patient",
+      "password": "1234",
+      "role": "patient",
+      "doctor_id": 0
+    }
+  ]
+}
